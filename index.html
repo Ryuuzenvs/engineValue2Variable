@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencari Nilai Linear 2 Variabel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pencari Nilai Linear 2 Variabel</h1>
+    </header>
+    
+    <main>
+        <form id="linearForm">
+            <div class="input-row">
+                <input type="number" id="x1" placeholder="Nilai X1" required>
+                <select id="operation1">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                </select>
+                <input type="number" id="y1" placeholder="Nilai Y1" required>
+                <span>=</span>
+                <input type="number" id="z1" placeholder="Nilai Z1" required>
+            </div>
+            <div class="input-row">
+                <input type="number" id="x2" placeholder="Nilai X2" required>
+                <select id="operation2">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                </select>
+                <input type="number" id="y2" placeholder="Nilai Y2" required>
+                <span>=</span>
+                <input type="number" id="z2" placeholder="Nilai Z2" required>
+            </div>
+
+            <button type="button" id="calculateButton" class="btn" disabled>Cari Nilai X dan Y</button>
+        </form>
+
+        <div id="result"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ryuuzenvs. Pencari Nilai Linear 2 Variabel. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
